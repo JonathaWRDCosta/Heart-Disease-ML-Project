@@ -23,5 +23,13 @@ The following libraries are utilized for data analysis, visualization, and machi
 - [Seaborn](https://seaborn.pydata.org/)
 - [Scikit-Learn](https://scikit-learn.org/stable/)
 
+## Model Choices and Hyperparameter Tuning
+We conducted hyperparameter tuning using techniques such as RandomizedSearchCV and GridSearchCV to optimize the performance of our models. The process involved adjusting the settings of each algorithm to find the best combination of hyperparameters. Here's a summary of our findings:
+
+- Logistic Regression:
+    - Test accuracy: 88.52%
+- Random Forest:
+    - Test accuracy: 86.89%
+
 ## Project Status
 This project is still under development and will be updated regularly. Stay tuned for further updates and improvements.
